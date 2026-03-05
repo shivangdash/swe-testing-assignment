@@ -8,7 +8,7 @@ Quick-Calc is a simple calculator application implemented in Python. It supports
 
 1. Ensure you have Python 3 installed.
 
-2. Clone the repository: `git clone https://github.com/yourusername/swe-testing-assignment.git`
+2. Clone the repository: `git clone https://github.com/shivangdash/swe-testing-assignment.git`
 
 3. Navigate to the directory: `cd swe-testing-assignment`
 
@@ -17,6 +17,41 @@ Quick-Calc is a simple calculator application implemented in Python. It supports
 ## How to Run the Application
 
 Run the CLI version: `python main.py`
+
+## Usage
+
+The calculator is a command-line interface application. It accepts input one at a time and updates the display after each input.
+
+### Input Types:
+- **Numbers**: Enter digits (e.g., `5`, `10`, `3.5`)
+- **Operations**: `+`, `-`, `*`, `/`
+- **Calculate**: `=`
+- **Clear**: `C` (resets to 0)
+- **Quit**: `Q`
+
+### Example Usage:
+```
+Quick-Calc CLI
+Enter numbers and operations (+, -, *, /), = to calculate, C to clear, Q to quit
+Input: 5
+Display: 5
+Input: +
+Display: 5
+Input: 3
+Display: 3
+Input: =
+Display: 8.0
+Input: C
+Display: 0
+Input: 10
+Display: 10
+Input: *
+Display: 10
+Input: 2
+Display: 2
+Input: =
+Display: 20.0
+```
 
 ## How to Run Tests
 
